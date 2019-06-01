@@ -607,6 +607,7 @@ extension ViewController: ItemTaskCollectionViewCellDelegate {
             items[itemNumber].completed = isFinished
             self.updateProgressView()
             self.saveItems()
+            print("saved")
         }
     }
 }
@@ -788,7 +789,6 @@ extension UILabel {
         let attribute = NSMutableAttributedString.init(string: fullText)
         attribute.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.black , range: range)
         self.attributedText = attribute
-        
     }
 }
 
