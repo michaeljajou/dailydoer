@@ -1,0 +1,16 @@
+PODS:
+  - TransitionButton (0.4.0)
+
+DEPENDENCIES:
+  - TransitionButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  TransitionButton: d271030914c84a00b54b4d983446944d2875e7ba
+
+PODFILE CHECKSUM: f80c489aabbf3dabbf01125c362ff7a2da336952
+
+COCOAPODS: 1.5.3
